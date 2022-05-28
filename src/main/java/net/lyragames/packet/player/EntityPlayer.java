@@ -3,6 +3,7 @@ package net.lyragames.packet.player;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import net.lyragames.packet.PacketAPI;
 import net.lyragames.packet.packets.Packet;

@@ -1,8 +1,10 @@
 package net.lyragames.packet.player.difficulty;
 
-import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
-@AllArgsConstructor
+@Getter
+@RequiredArgsConstructor
 public enum EnumDifficulty {
 
     PEACEFUL(0),
