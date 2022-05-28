@@ -20,22 +20,11 @@ import java.net.URL;
 import java.util.UUID;
 
 @Getter
+@RequiredArgsConstructor
 public class EntityPlayer {
 
     private final UUID uuid;
     private final String name;
-
-    /**
-     * initialize the entity player
-     *
-     * @param uuid uuid of player
-     * @param name name of player
-     */
-
-    public EntityPlayer(UUID uuid, String name) {
-        this.uuid = uuid;
-        this.name = name;
-    }
 
     /**
      * gets the player entity player
